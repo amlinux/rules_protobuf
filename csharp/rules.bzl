@@ -28,7 +28,7 @@ def csharp_proto_repositories(
       fail("Unknown loading rule %s for %s" % (rule, dep))
 
 PB_COMPILE_DEPS = [
-  "@nuget_google_protobuf//:libnet45",
+  "@nuget_google_protobuf//:libnet20",
 ]
 
 GRPC_COMPILE_DEPS = PB_COMPILE_DEPS + [

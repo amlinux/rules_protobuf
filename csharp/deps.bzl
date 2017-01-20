@@ -18,12 +18,12 @@ dll_import(
 )
 dll_import(
   name = "system_interactive_async",
-  srcs = glob(["System.Interactive.Async.3.0.0/lib/net45/**/*.dll"]),
+  srcs = glob(["System.Interactive.Async.3.0.0/lib/net20/**/*.dll"]),
   visibility = ["//visibility:public"],
 )
 dll_import(
   name = "core",
-  srcs = glob(["Grpc.Core.1.0.0/lib/net45/**/*.dll"]),
+  srcs = glob(["Grpc.Core.1.0.0/lib/net20/**/*.dll"]),
   visibility = ["//visibility:public"],
 )
 """
